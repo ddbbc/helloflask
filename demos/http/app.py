@@ -50,7 +50,7 @@ def go_back(year):
 # use any URL converter
 @app.route('/colors/<any(blue, white, red):color>')
 def three_colors(color):
-    return '<p>Love is patient and kind. Love is not jealous or boastful or proud or rude.</p>'
+    return '<p>1 Love is patient and kind. Love is not jealous or boastful or proud or rude.</p>'
 
 
 # return error response
